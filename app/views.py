@@ -1,5 +1,3 @@
-from email import message
-from turtle import title
 from flask import render_template
 from app import app
 
