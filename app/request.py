@@ -8,3 +8,8 @@ api_key = app.config['MOVIE_API_KEY']
 
 # Getting the movie base url
 base_url = app.config["MOVIE_API_BASE_URL"]
+
+def get_movies(category):
+    '''
+    Function that gets the json response to our url request
+    '''
